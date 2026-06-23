@@ -12,7 +12,7 @@ FASE-E-CHECKLIST.md
 
 # Artefactos de distribución — van a GitHub Releases (Fase G), NO al repo
 *-transfer.tar.gz
-bp_pdf-linux-x64.tar.gz
+*-linux-x64.tar.gz
 *.AppImage
 *.apk
 *.aab
