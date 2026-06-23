@@ -1,0 +1,34 @@
+# Normalización de fin de línea.
+# El repo almacena SIEMPRE en LF; al hacer checkout se respeta LF también en
+# Windows. Crítico trabajando en Windows + Linux: evita que un commit desde
+# Windows reescriba todos los ficheros a CRLF y ensucie los diffs.
+* text=auto eol=lf
+
+# Scripts específicos de Windows: requieren CRLF para ejecutarse bien.
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# Scripts shell: siempre LF (aunque se editen en Windows).
+*.sh    text eol=lf
+
+# Binarios — git no debe tocar/normalizar.
+*.pdf       binary
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.icns      binary
+*.ttf       binary
+*.otf       binary
+*.so        binary
+*.dll       binary
+*.dylib     binary
+*.a         binary
+*.lib       binary
+*.exe       binary
+*.keystore  binary
+*.jks       binary
+*.p12       binary
+*.pfx       binary

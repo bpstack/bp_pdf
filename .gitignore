@@ -1,0 +1,64 @@
+# Certificados / claves de firma — NUNCA subir al repo
+*.pfx
+*.cer
+*.p12
+*.keystore
+*.jks
+
+# Documentación interna (andamiaje del proceso de publicación — no va al repo público)
+SESSION.md
+PUBLISH.md
+FASE-E-CHECKLIST.md
+
+# Artefactos de distribución — van a GitHub Releases (Fase G), NO al repo
+*-transfer.tar.gz
+bp_pdf-linux-x64.tar.gz
+*.AppImage
+*.apk
+*.aab
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release

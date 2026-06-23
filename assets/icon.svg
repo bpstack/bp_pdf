@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- White background with rounded corners (app icon style) -->
+  <rect width="512" height="512" fill="white" rx="88"/>
+
+  <!--
+    Heart-O: heart path drawn with thick stroke → creates a ring/O shape.
+    Outer boundary ~370px wide, stroke 76px thick → ring ~38px each side.
+    The inner hollow reads as an "O"; the outer silhouette reads as a heart.
+  -->
+  <path
+    d="M 256 405
+       C 230 387 200 366 172 343
+       C 120 300 72 255 72 175
+       C 72 112 116 72 168 72
+       C 205 72 235 91 256 118
+       C 277 91 307 72 344 72
+       C 396 72 440 112 440 175
+       C 440 255 392 300 340 343
+       C 312 366 282 387 256 405 Z"
+    fill="none"
+    stroke="#D32F2F"
+    stroke-width="76"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+  />
+</svg>
