@@ -4,6 +4,20 @@
 
 A local-first PDF annotation editor built with Flutter. Everything runs on your device — no server, no accounts, no internet required.
 
+## Screenshots
+
+Clean start screen — open any PDF from your file system:
+
+![Home screen](docs/screenshots/1-home.webp)
+
+Viewer with zoom, page navigation and a thumbnail sidebar:
+
+![PDF viewer with thumbnail sidebar](docs/screenshots/2-viewer.webp)
+
+Annotating a document — text, highlight and freehand drawing layered on top, original file untouched:
+
+![Annotated PDF](docs/screenshots/3-annotated.webp)
+
 ## What it does
 
 - **Open PDFs** from your file system and navigate them with zoom and a thumbnail sidebar
