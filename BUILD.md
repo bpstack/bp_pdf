@@ -81,6 +81,16 @@ flutter build appbundle --release
 sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev
 ```
 
+> ⚠️ **Compilar sobre un sistema de archivos nativo Linux (ext4), NO sobre una
+> partición NTFS montada** (p. ej. una unidad Windows en un equipo dual-boot). El
+> build de pdfium (FFI) usa symlinks y permisos POSIX que fallan en NTFS. Si el
+> proyecto está en una partición Windows, cópialo a `~/` (o cualquier ruta ext4)
+> antes de compilar.
+
+> ℹ️ **Portales del SO:** el selector de archivos (`file_selector`) usa los
+> portales de escritorio. Si el diálogo de abrir/guardar no aparece, instala
+> `xdg-desktop-portal` (y un backend, p. ej. `xdg-desktop-portal-gtk`).
+
 En **WSL** (build desde Windows): instalar Flutter propio dentro de WSL con los paquetes anteriores.
 
 ### Build debug
