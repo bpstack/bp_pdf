@@ -1,5 +1,7 @@
 # BP PDF
 
+[![CI](https://github.com/bpstack/bp_pdf/actions/workflows/ci.yml/badge.svg)](https://github.com/bpstack/bp_pdf/actions/workflows/ci.yml)
+
 A local-first PDF annotation editor built with Flutter. Everything runs on your device — no server, no accounts, no internet required.
 
 ## What it does
